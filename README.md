@@ -4,7 +4,7 @@ Creates inputs with fields name to quick copy it.
 
 ## Installation
 
-+ Upload 'acf-cpt-options-pages' to the `/wp-content/plugins/` directory.
++ Upload 'acf-copier' to the `/wp-content/plugins/` directory.
 + Activate the plugin through the`Plugins` menu in WordPress.
 
 ## License
