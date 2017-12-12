@@ -27,9 +27,8 @@
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-if(!function_exists('wpa_acf_editor__admin_js')) {
-
-    function wpa_acf_editor__admin_js() {
+if(!function_exists('wpa_acf_copier_admin_js')) {
+    function wpa_acf_copier_admin_js() {
         echo "<script type=\"text/javascript\">
             function wpa_acf_editor__create_input(val){
                 return '<input class=\"regular-text\" type=\"text\" readonly value=\"'+val+'\" onclick=\"this.select();document.execCommand(\'copy\')\" />';
@@ -46,6 +45,5 @@ if(!function_exists('wpa_acf_editor__admin_js')) {
             });
         </script>";
     }
-    add_action('admin_footer', 'wpa_acf_editor__admin_js');
-
+    add_action('admin_footer', 'wpa_acf_copier_admin_js', 10, 3);
 }
