@@ -9,7 +9,7 @@ Creates inputs with fields name to quick copy it.
 
 ## License
 
-Copyright (c) 2017, [Tusko Trush](https://frontend.im/?github "Front-End Developer")
+Copyright (c) 2018, [Tusko Trush](https://frontend.im/?github "Front-End Developer")
 
 ---------------
 If you have any questions on this please post an issue/question: https://github.com/Tusko/ACF-Field-Name-Copier/issues

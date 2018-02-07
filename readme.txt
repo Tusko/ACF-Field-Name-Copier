@@ -4,8 +4,8 @@ Contributors: tusko-trush
 Donate link: https://frontend.im/
 Tags: Advanced Custom Fields
 Requires at least: 3.0
-Tested up to: 4.9
-Stable tag: 1.0
+Tested up to: 4.9.4
+Stable tag: 1.0.1
 License: GPL v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,7 +25,7 @@ If you have any questions on this please post an issue/question at [Github Issue
 
 = License =
 
-Copyright (c) 2017, [Tusko Trush](https://frontend.im/?github "Front-End Developer")
+Copyright (c) 2018, [Tusko Trush](https://frontend.im/?github "Front-End Developer")
 
 ---------------
 If you have any questions on this please post an issue/question: https://github.com/Tusko/ACF-Field-Name-Copier/issues

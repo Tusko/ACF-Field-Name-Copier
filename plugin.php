@@ -35,12 +35,12 @@ if(!function_exists('wpa_acf_copier_admin_js')) {
             }
             jQuery(document).ready(function($){
                 $('.acf-field-list .li-field-name').each(function(){
-                    $(this).html( wpa_acf_editor__create_input( $(this).text() ) );
+                    $(this).html( wpa_acf_editor__create_input( $(this).text().trim() ) );
                 });
                 $(document).on('change focus blur keyup', '.field-name', function(){
                 var wpa_field_name     = $(this),
                     wpa_field_to_input = wpa_field_name.closest('.settings').prev().find('.li-field-name');
-                    wpa_field_to_input.html( wpa_acf_editor__create_input( wpa_field_name.val() ) );
+                    wpa_field_to_input.html( wpa_acf_editor__create_input( wpa_field_name.val().trim() ) );
                 });
             });
         </script>";
