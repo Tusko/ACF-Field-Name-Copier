@@ -7,6 +7,17 @@ Creates inputs with fields name to quick copy it.
 + Upload 'acf-copier' to the `/wp-content/plugins/` directory.
 + Activate the plugin through the`Plugins` menu in WordPress.
 
+## Changelog
+
+= 1.0.2 =
+* Prevent to create input of repeater/flexible table head
+
+= 1.0.1 =
+* Trim field name
+
+= 1.0 =
+* Plugin publish
+
 ## License
 
 Copyright (c) 2018, [Tusko Trush](https://frontend.im/?github "Front-End Developer")

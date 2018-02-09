@@ -5,7 +5,7 @@
  * Description: Creates inputs with fields name to quick copy it.
  * Author: Tusko Trush
  * Author URI: https://frontend.im/
- * Version: 1.0
+ * Version: 1.0.2
  * License: GPL v3
  *
  * Advanced Custom Fields : Field Name Copier

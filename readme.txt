@@ -5,7 +5,7 @@ Donate link: https://frontend.im/
 Tags: Advanced Custom Fields
 Requires at least: 3.0
 Tested up to: 4.9.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,18 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Plugin helps you to quick copy field name of created ACF field.
 Creates inputs with fields name to quick copy it.
+
+== Changelog ==
+
+= 1.0.2 =
+* Prevent to create input of repeater/flexible table head
+
+= 1.0.1 =
+* Trim field name
+
+= 1.0 =
+* Plugin publish
+
 
 == Installation ==
 
