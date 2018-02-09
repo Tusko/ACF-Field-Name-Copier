@@ -34,7 +34,7 @@ if(!function_exists('wpa_acf_copier_admin_js')) {
                 return '<input class=\"regular-text\" type=\"text\" readonly value=\"'+val+'\" onclick=\"this.select();document.execCommand(\'copy\')\" />';
             }
             jQuery(document).ready(function($){
-                $('.acf-field-list .li-field-name').each(function(){
+                $('.acf-field-list .acf-field-object .li-field-name').each(function(){
                     $(this).html( wpa_acf_editor__create_input( $(this).text().trim() ) );
                 });
                 $(document).on('change focus blur keyup', '.field-name', function(){
