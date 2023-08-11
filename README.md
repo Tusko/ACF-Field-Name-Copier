@@ -1,4 +1,7 @@
 # ACF-Copier
+
+ACF 6.0.3 comes with its own copy Feature. This repository is kept for historical reasons.
+
 Plugin helps you to quick copy field name of created ACF field.
 Creates inputs with fields name to quick copy it.
 
